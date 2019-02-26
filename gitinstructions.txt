@@ -8,6 +8,8 @@ we can dowload it via git clone <url>
     Do above in same directory to get .git file that will hold all git operations
  2. git add <files/folder/*>
     Do above to add the changes in file or track untracked files
+ 2.1 git config commit.gpgsign false
+    ignore gpg sign
  3. git commit -m "first commit"
     This will make changes in local git 
  4. git remote add origin git@github.com:kartikpaliwal/gittestroll.git
